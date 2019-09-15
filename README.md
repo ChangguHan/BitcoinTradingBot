@@ -2,9 +2,9 @@
 
 BTB is a Bitcoin trading bot which calculate profit margin among bitcoin trade pages automatically by ChangguHa.
 * Run Image  
-[!RunImg](./img/runimg.png)
+![RunImg](/img/runimg.png)
 * Log Image  
-[!LogImg](./img/logimg.png)
+![LogImg](./img/logimg.png)
 
 ### Concept
 There are difference price in same coin between different coin markets.  
