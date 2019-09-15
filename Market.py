@@ -83,7 +83,6 @@ class Market_Ex :
         # except :
         #     print("    Market(" + str(sys._getframe().f_lineno) + ") : (" + self.name + ") : currency : " + "USDT", "Error")
         for i in list(tickers.keys()) :
-            print(i)
             try :
                 result.append(Currency(i,self.name, tickers[i], self.API))
             except :
