@@ -6,7 +6,7 @@ BTB is a Bitcoin trading bot which calculate profit margin among bitcoin trade p
     <img class = "center" src= "./image/runimg.png" width="560px" height="100px" />
 </p>
 <p align="center">
-    <img class = "center" src= "./image/logimg.png" width="300px" height="200px" />
+    <img class = "center" src= "./image/logimg.png" width="600px" height="400px" />
 </p>
 
 
@@ -16,14 +16,14 @@ This program calculate profit margin between coin markets.
 If you buy some coin in base market and withdrawal to another market and sell the coin and buy some coin in another market and withdrawal to your base market and sell the coin again, you can make profit.  
 This program works like that.  
 <p align="center">
-    <img class = "center" src= "./image/Concept1.png" width="320px" height="200px" />
+    <img class = "center" src= "./image/Concept1.png" width="640px" height="400px" />
 </p>
 At first, compare coin price between base market and market list.  
 Second, Calculate the profit  
 Finally, If profit is over the profit which you set already, alarm to user mail.  
 This program really works but there is a danger because you need to wait for coin withdrawal time and in this time the price of coin can be changed.  
 <p align="center">
-    <img class = "center" src= "./image/Concept2.png" width="320px" height="200px" />
+    <img class = "center" src= "./image/Concept2.png" width="640px" height="400px" />
 </p>
 ### 개념
 코인거래소간에는 같은 코인임에도 불구하고 가격차이가 있습니다.  
@@ -45,6 +45,6 @@ This program really works but there is a danger because you need to wait for coi
 
 ### Archithecture
 <p align="center">
-    <img class = "center" src= "./image/Architecture.png" width="320px" height="200px" />
+    <img class = "center" src= "./image/Architecture.png" width="640px" height="400px" />
 </p>
 
