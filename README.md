@@ -2,21 +2,29 @@
 
 BTB is a Bitcoin trading bot which calculate profit margin among bitcoin trade pages automatically by ChangguHan.
 * Run Image  
-![RunImg](./image/runimg.png)
-* Log Image  
-![LogImg](./image/logimg.png)
+<p align="center">
+    <img class = "center" src= "./img/runimg.png" width="560px" height="100px" />
+</p>
+<p align="center">
+    <img class = "center" src= "./img/logimg.png" width="300px" height="200px" />
+</p>
+
 
 ### Concept
 There are difference price in same coin between different coin markets.  
 This program calculate profit margin between coin markets.  
 If you buy some coin in base market and withdrawal to another market and sell the coin and buy some coin in another market and withdrawal to your base market and sell the coin again, you can make profit.  
 This program works like that.  
-![Concept1](./image/Concept1.png)  
+<p align="center">
+    <img class = "center" src= "./img/Concept1.png" width="320px" height="200px" />
+</p>
 At first, compare coin price between base market and market list.  
 Second, Calculate the profit  
 Finally, If profit is over the profit which you set already, alarm to user mail.  
 This program really works but there is a danger because you need to wait for coin withdrawal time and in this time the price of coin can be changed.  
-![Concept2](./image/Concept2.png)
+<p align="center">
+    <img class = "center" src= "./img/Concept2.png" width="320px" height="200px" />
+</p>
 ### 개념
 코인거래소간에는 같은 코인임에도 불구하고 가격차이가 있습니다.  
 코인트레이딩봇은 실시간으로 거래소간의 시세차익을 계산해주는 프로그램입니다.  
@@ -36,5 +44,7 @@ This program really works but there is a danger because you need to wait for coi
 * 목표 수익률을 초과할 경우 해당 메일으로 위의 정보를 보내줍니다.
 
 ### Archithecture
-![Architecture](./image/Architecture.png)
+<p align="center">
+    <img class = "center" src= "./img/Architecture.png" width="320px" height="200px" />
+</p>
 
